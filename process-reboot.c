@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<strings.h>
 #include<time.h>
-/* this program check for a process if running or if it got executed the program send a force reboot or a force shutdown to the computer */
+/* this program check for a process if running or if it got executed the program send a force reboot or a force shutdown signal to the system */
 int main()
 {
     char *Process[] = {"Mozilla", "Firefox"};
